@@ -1,0 +1,55 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+
+#logo {
+    height: 40px;
+    width: 40px;
+    margin-right: 10px;
+    margin-left: 10px; 
+}
+
+.main{
+    display: flex;
+    flex-grow: 1;
+    justify-content: left;
+    flex-wrap: wrap;
+}
+
+.top{
+   padding: 10px;
+   align-items: center;
+   background-color: rgb(46, 45, 45);
+   color: white;
+   margin-left: -12px;
+   margin-right: -12px;
+}
+
+.container-fluid{
+    background-image: url("bg.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 700px;
+}
+
+#head{
+    color: white;
+    text-align: center;
+    margin-top: 200px; 
+    
+}
+
+@media only screen and (max-width: 600px){
+    #home{
+       margin-left: 120px;
+    }
+
+    #footer{
+        margin-top: -65px;
+    }
+
+    #gmap{
+        margin-left: -60px;
+    }
+}

@@ -1,0 +1,58 @@
+*{
+    padding: 0%;
+    margin: 0%;
+}
+
+.container-fluid{
+    background-image: url(bg1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: auto;
+    width: auto;
+}
+
+h1{
+    margin-top: 10px;
+    color: white;
+    text-align: center;
+    background-color: navy;
+    border: 2px solid white;
+    border-radius: 10px;
+}
+
+#box{
+    background-color: rgb(214, 65, 154);
+    color: white;
+    padding: 10px;
+    border: 2px solid black;
+    border-radius: 5px;
+    width: 350px;
+    height: auto;
+}
+
+#button1{
+    background-color: rgb(12, 74, 103);
+    color: white;
+    border: 2px solid rgb(12, 74, 103);
+    padding: 5px;
+}
+
+#btn1{
+    padding: 5px;
+    background-color: black;
+    color: white;
+    width: 90px;
+    height: 60px;
+    border: 2px solid white;
+}
+
+@media only screen and (max-width: 600px){
+    #gmap{
+        width: 50px;
+        height: 300px;
+    }
+
+    #subscribe{
+        width: 300px;
+    }
+}
